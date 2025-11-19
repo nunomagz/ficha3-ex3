@@ -1,0 +1,9 @@
+Algoritmo soma
+ED: n1, n2, soma inteiro;
+
+inicio
+Escrever("qual o número 1 e 2?");
+Ler(n1, n2);
+soma<- n1 + n2;
+Escrever("A soma é: ", soma);
+fim

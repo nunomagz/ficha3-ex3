@@ -4,6 +4,10 @@ ED: n1, n2, soma inteiro;
 inicio
 Escrever("qual o número 1 e 2?");
 Ler(n1, n2);
-soma<- n1 + n2;
-Escrever("A soma é: ", soma);
+subtracao<- n1 - n2;
+se n1 < n2 entao
+	subtracao<- n1 - n2
+senao
+	subtracao<- n2 - n1
+Escrever("A subtração é: ", subtracao);
 fim
